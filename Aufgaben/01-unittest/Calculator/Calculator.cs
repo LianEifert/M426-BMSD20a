@@ -18,5 +18,11 @@ namespace Calculator
         {
             return multiplientA * multiplientB;
         }
+
+        public int Devide(int DividentA, int DividentB)
+        {
+            return DividentA / DividentB;
+        }
+
     }
 }
