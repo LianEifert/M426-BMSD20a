@@ -82,7 +82,7 @@ namespace Calculator.Tests
             int actual = 0;
 
             // Then
-            Assert.Throws<DivideByZeroException>(() =>
+            Assert.Throws<ArgumentException>(() =>
 
              actual = calculator.Devide(a, b)
 
