@@ -75,16 +75,14 @@ namespace Calculator.Tests
             // Given
             int a = 4;
             int b = 0;
-            int expected = 2;
             Calculator calculator = new Calculator();
 
-            // When
-            int actual = 0;
+            
 
             // Then
             Assert.Throws<ArgumentException>(() =>
 
-             actual = calculator.Devide(a, b)
+             calculator.Devide(a, b)
 
             ); 
         }

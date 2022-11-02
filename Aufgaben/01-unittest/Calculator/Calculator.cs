@@ -22,7 +22,7 @@ namespace Calculator
         public int Devide(int DividentA, int DividentB)
         {
           
-                if (DividentA == 0 || DividentB == 0)
+                if (DividentB == 0)
                 {
                     throw new ArgumentException();
                 }
